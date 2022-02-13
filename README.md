@@ -1,6 +1,6 @@
 # Python Library for DHT11 Sensor on ODROID Platform
 
-This simple class, written purely in Python, makes it possible to interface with a DHT11 temperature and humidity sensor from ODROID platorms running Ubuntu using ODROID's Ubuntu PPA provided [odroid-wiringpi](https://wiki.odroid.com/odroid-xu4/application_note/gpio/wiringpi) library.
+This simple class, written purely in Python, makes it possible to interface with a DHT11 temperature and humidity sensor from ODROID platorms that are running Ubuntu, using ODROID's Ubuntu PPA provided [odroid-wiringpi](https://wiki.odroid.com/odroid-xu4/application_note/gpio/wiringpi) library, or directly from their [Github Repository](https://github.com/hardkernel/wiringPi).
 
 
 # Installation
