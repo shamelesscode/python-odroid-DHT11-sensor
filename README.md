@@ -49,10 +49,10 @@ Keeping aligned with the original project this repo was forked from, this projec
 
 # Credits & Mentions
 
-## DHT11 Python Library by Szazo
+### DHT11 Python Library by Szazo
 
 This project was forked from the [DHT11 Python](https://github.com/szazo/DHT11_Python) repo by [szazo](https://github.com/szazo). Many thanks go out to szazo for the incredible work in his project for using the DHT11 temperature and humidity sensor on the Raspberry Pi platform in a complete python implementation. Go check out his other projects, and be sure to show him some love while you're there!
 
-## ODROID WiringPy Python Wrapper Port
+### ODROID WiringPy Python Wrapper Port
 
 ODROID provides a port of the WiringPi project, modified to work on the ODROID platform, through their Ubuntu PPA as well as Github account. This provides all of the same powerful features of WiringPi, with a Python wrapper, already configured to work with ODROID's GPIO pins. For more information and installation instructions, please visit the [ODROID Wiki](https://wiki.odroid.com/odroid-xu4/application_note/gpio/wiringpi).
