@@ -1,6 +1,7 @@
-# DHT11 Python library
+# Python Library for DHT11 Sensor on ODROID Platform
 
-This simple class can be used for reading temperature and humidity values from DHT11 sensor on Raspberry Pi.
+This simple class, written purely in Python, makes it possible to interface with a DHT11 temperature and humidity sensor from ODROID platorms running Ubuntu using ODROID's Ubuntu PPA provided [odroid-wiringpi](https://wiki.odroid.com/odroid-xu4/application_note/gpio/wiringpi) library.
+
 
 # Installation
 
@@ -9,6 +10,7 @@ To install, just run following:
 ```
 pip install dht11
 ```
+
 
 # Usage
 
@@ -39,6 +41,18 @@ else:
 
 For working example, see `dht11_example.py` (you probably need to adjust pin for your configuration)
 
+
 # License
 
-This project is licensed under the terms of the MIT license.
+Keeping aligned with the original project this repo was forked from, this project remains licensed under the terms of the MIT license.
+
+
+# Credits & Mentions
+
+## DHT11 Python Library by Szazo
+
+This project was forked from the [DHT11 Python](https://github.com/szazo/DHT11_Python) repo by [szazo](https://github.com/szazo). Many thanks go out to szazo for the incredible work in his project for using the DHT11 temperature and humidity sensor on the Raspberry Pi platform in a complete python implementation. Go check out his other projects, and be sure to show him some love while you're there!
+
+## ODROID WiringPy Python Wrapper Port
+
+ODROID provides a port of the WiringPi project, modified to work on the ODROID platform, through their Ubuntu PPA as well as Github account. This provides all of the same powerful features of WiringPi, with a Python wrapper, already configured to work with ODROID's GPIO pins. For more information and installation instructions, please visit the [ODROID Wiki](https://wiki.odroid.com/odroid-xu4/application_note/gpio/wiringpi).
